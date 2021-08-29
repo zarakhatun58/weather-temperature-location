@@ -20,6 +20,7 @@ date.innerText = dateFunction(today);
 let current = document.getElementById('current');
 
 let weather = document.getElementById('weather');
+let temp = document.getElementById('temp');
 
 let temprange = document.getElementById('temp-range')
 
@@ -57,7 +58,7 @@ const getWeather = async (city) => {
         [0];
         loc.textContent = name;
         climate.textContent = main;
-        tempvalue.textContent = Math.round(feels_like - 273);
+        temp.textContent = Math.round(feels_like - 273);
         if (id < 300 && id > 200) {
             tempicon.src = "./icons/thunder.png"
         }
