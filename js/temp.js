@@ -1,3 +1,15 @@
+//* Title: Weather Temperature App
+//* Description: Weather App Manupulation
+//Author: Jahanara Khatun
+//* Date: 29/08/2021
+
+//Private api
+//api link : api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+//Api Key:ace8fd8137a545957a099758645eb497
+
+
+
 let loc = document.getElementById('location');
 let city = document.getElementById('city');
 
