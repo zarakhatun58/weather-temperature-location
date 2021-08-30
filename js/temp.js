@@ -59,6 +59,8 @@ const getWeather = async (city) => {
         loc.textContent = name;
         climate.textContent = main;
         temp.textContent = Math.round(feels_like - 273);
+        //tempvalue.textContent = Math.round(feels_like - 273);
+
         if (id < 300 && id > 200) {
             tempicon.src = "./icons/thunder.png"
         }
